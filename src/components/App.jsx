@@ -11,7 +11,7 @@ export class App extends Component {
     imagesList: [],
     isLoading: false,
     isModal: false,
-    // isLoadMore: false,
+    isLoadMore: false,
     value: '',
   };
 
@@ -37,7 +37,7 @@ export class App extends Component {
     //   this.setState({ imagesList: data.hits });
     // });
 
-    const { isLoading, isLoadMore, isModal, imagesList } = this.state;
+    const { isLoading, isModal, imagesList } = this.state;
 
     // console.log(imagesList.length);
     return (
