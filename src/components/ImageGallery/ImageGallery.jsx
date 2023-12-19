@@ -4,7 +4,7 @@ import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
 
 export class ImageGallery extends Component {
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     return (
       <Gallery>
         {this.props.imagesList.map(el => {
@@ -16,7 +16,6 @@ export class ImageGallery extends Component {
             />
           );
         })}
-        ;
       </Gallery>
     );
   }
