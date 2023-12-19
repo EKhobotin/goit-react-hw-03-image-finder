@@ -11,7 +11,7 @@ export class App extends Component {
     imagesList: [],
     isLoading: false,
     isModal: false,
-    isLoadMore: false,
+    // isLoadMore: false,
     value: '',
   };
 

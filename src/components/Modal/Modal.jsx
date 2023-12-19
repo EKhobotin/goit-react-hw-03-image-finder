@@ -7,7 +7,7 @@ export class Modal extends Component {
       <Overlay class="overlay">
         <ModalDiv class="modal">
           ТУТ БУДЕ КАРТИНКА
-          <img src="" alt="PICTURE" />
+          <img src="#" alt="qwerty" />
         </ModalDiv>
       </Overlay>
     );
