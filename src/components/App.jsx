@@ -9,7 +9,7 @@ import { getImages } from 'helper/API';
 export class App extends Component {
   state = {
     imagesList: [],
-    isLoading: false,
+    isLoading: true,
     isModal: false,
     isLoadMore: false,
     value: '',
