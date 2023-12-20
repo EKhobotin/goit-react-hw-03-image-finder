@@ -12,7 +12,7 @@ export class App extends Component {
     imagesList: [],
     isLoading: false,
     isModal: false,
-    isLoadMore: false,
+    // isLoadMore: false,
     value: '',
     page: 1,
     largeURL: '',
