@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Overlay, ModalDiv } from './Modal.styled';
 
-export class Modal extends Component {
-  render() {
-    return (
-      <Overlay class="overlay">
-        <ModalDiv class="modal">
-          ТУТ БУДЕ КАРТИНКА
-          <img src="#" alt="qwerty" />
-        </ModalDiv>
-      </Overlay>
-    );
-  }
-}
+export const Modal = ({ url, onClick }) => {
+  return (
+    <Overlay onClick={onClick}>
+      <ModalDiv>
+        <img src={url} alt="qwerty" />
+      </ModalDiv>
+    </Overlay>
+  );
+};

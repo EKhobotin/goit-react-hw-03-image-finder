@@ -5,6 +5,8 @@ export async function getImages(query, page = 1) {
   const response = await fetch(
     `${BASE_URL}?key=${API_KEY}&q=${query}&per_page=${PER_PAGE}&page=${page}`
   );
-  const data = response.json();
+  const data = await response.json();
+  // console.log(response);
+  // console.log(data);
   return data;
 }
