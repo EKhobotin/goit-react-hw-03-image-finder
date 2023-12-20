@@ -4,7 +4,7 @@ import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
 
 export class ImageGallery extends Component {
   onClick = largeURL => {
-    console.log(largeURL);
+    // console.log(largeURL);
     this.props.onClick(largeURL);
   };
   render() {

@@ -24,9 +24,9 @@ export class App extends Component {
 
   async componentDidUpdate(_, prevState) {
     const { value, page } = this.state;
-    console.log('update');
-    console.log(prevState);
-    console.log(this.state);
+    // console.log('update');
+    // console.log(prevState);
+    // console.log(this.state);
 
     if (!value) {
       Notiflix.Notify.warning('Please enter search query');
